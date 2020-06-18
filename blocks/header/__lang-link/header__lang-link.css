@@ -1,0 +1,16 @@
+.header__lang-link {
+  display: inline-block;
+  vertical-align: bottom;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.16;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
