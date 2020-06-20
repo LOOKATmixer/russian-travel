@@ -2,8 +2,14 @@
 @import url(./_url-heading/place__website_url-heading.css);
 
 .place__website {
-    grid-area: link;
-    display: grid;
-    align-self: end;
-    justify-self: start;
+  grid-area: link;
+  display: grid;
+  align-self: end;
+  justify-self: start;
+}
+
+@media screen and (max-width: 650px) {
+  .place__website {
+    display: none;
+  }
 }

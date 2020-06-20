@@ -1,0 +1,21 @@
+.place__description {
+  max-width: 484px;
+  grid-area: paragraph;
+  font-size: 18px;
+  line-height: 167%;
+  align-self: start;
+  justify-self: start;
+}
+
+@media screen and (max-width: 768px) {
+  .place__description {
+    font-size: 16px;
+    line-height: 162%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__description {
+    padding: 0 16px;
+  }
+}
